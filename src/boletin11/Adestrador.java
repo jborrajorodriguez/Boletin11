@@ -31,4 +31,16 @@ public class Adestrador extends Seleccion {
 
     }
 
+    @Override
+    public void viaxar() {
+        System.out.println("Viaxa o Adestrador");
+
+    }
+
+    @Override
+    public String toString() {
+        return (super.toString()+"\nID de la Federacion:"+idFederacion);
+
+    }
+
 }
