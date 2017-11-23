@@ -5,8 +5,8 @@ package boletin11;
  */
 public class Seleccion {
 
-    private int id, idade;
-    private String nome, apelido;
+    protected int id, idade;
+    protected String nome, apelido;
 
     public Seleccion() {
     }
@@ -55,7 +55,12 @@ public class Seleccion {
     }
 
     public void concentrarse() {
-        System.out.println("Concentrarse a selecion");
+        System.out.println("Concentrarse a seleccion");
+    }
+
+    @Override
+    public String toString() {
+        return ("Nome:"+nome+"\nApellido:"+apelido+"\nID:"+id+"\nEdad"+idade);
     }
 
 }
