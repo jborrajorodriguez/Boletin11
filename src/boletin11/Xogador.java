@@ -41,4 +41,14 @@ public class Xogador extends Seleccion {
 
     }
 
+    @Override
+    public void viaxar() {
+        System.out.println("Viaxa o Xogador");
+
+    }
+
+    public String toString() {
+        return (super.toString()+"\ndorsal:"+dorsal+"\nDemarcacion:"+demarcacion);
+    }
+
 }
