@@ -15,6 +15,14 @@ public class Adestrador extends Seleccion {
         this.idFederacion=idFederacion;
     }
 
+    public String getIdFederacion() {
+        return idFederacion;
+    }
+
+    public void setIdFederacion(String idFederacion) {
+        this.idFederacion=idFederacion;
+    }
+
     public void dirixirPartido() {
 
     }
