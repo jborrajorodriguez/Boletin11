@@ -17,6 +17,22 @@ public class Masaxista extends Seleccion {
         this.anosExperiencia=anosExperiencia;
     }
 
+    public String getTitulacion() {
+        return titulacion;
+    }
+
+    public void setTitulacion(String titulacion) {
+        this.titulacion=titulacion;
+    }
+
+    public int getAnosExperiencia() {
+        return anosExperiencia;
+    }
+
+    public void setAnosExperiencia(int anosExperiencia) {
+        this.anosExperiencia=anosExperiencia;
+    }
+
     public void darMasaxes() {
 
     }
