@@ -37,4 +37,15 @@ public class Masaxista extends Seleccion {
 
     }
 
+    @Override
+    public void viaxar() {
+        System.out.println("Viaxa o masaxista");
+
+    }
+
+    @Override
+    public String toString() {
+        return (super.toString()+"\nTitulacion+"+titulacion+"\nAños de experiencia"+anosExperiencia);
+    }
+
 }
